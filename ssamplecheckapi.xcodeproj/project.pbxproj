@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0BAF642BE140470094E61D /* apicallpackage in Frameworks */ = {isa = PBXBuildFile; productRef = DD0BAF632BE140470094E61D /* apicallpackage */; };
 		DD8BF7FA2BE10EC8001E4719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF7F92BE10EC8001E4719 /* AppDelegate.swift */; };
 		DD8BF7FC2BE10EC8001E4719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF7FB2BE10EC8001E4719 /* SceneDelegate.swift */; };
 		DD8BF7FE2BE10EC8001E4719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF7FD2BE10EC8001E4719 /* ViewController.swift */; };
@@ -35,6 +36,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DD8BF8302BE11029001E4719 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DD8BF7F62BE10EC8001E4719 /* ssamplecheckapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ssamplecheckapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8BF7F92BE10EC8001E4719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0BAF642BE140470094E61D /* apicallpackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +152,16 @@
 				DD8BF7F22BE10EC8001E4719 /* Sources */,
 				DD8BF7F32BE10EC8001E4719 /* Frameworks */,
 				DD8BF7F42BE10EC8001E4719 /* Resources */,
+				DD8BF8302BE11029001E4719 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ssamplecheckapi;
+			packageProductDependencies = (
+				DD0BAF632BE140470094E61D /* apicallpackage */,
+			);
 			productName = ssamplecheckapi;
 			productReference = DD8BF7F62BE10EC8001E4719 /* ssamplecheckapi.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,9 @@
 				Base,
 			);
 			mainGroup = DD8BF7ED2BE10EC8001E4719;
+			packageReferences = (
+				DD0BAF622BE140470094E61D /* XCRemoteSwiftPackageReference "packagetest" */,
+			);
 			productRefGroup = DD8BF7F72BE10EC8001E4719 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -438,6 +460,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YL99PSC3UC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ssamplecheckapi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +492,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YL99PSC3UC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ssamplecheckapi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -602,6 +632,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD0BAF622BE140470094E61D /* XCRemoteSwiftPackageReference "packagetest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jeba-IOS/packagetest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD0BAF632BE140470094E61D /* apicallpackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD0BAF622BE140470094E61D /* XCRemoteSwiftPackageReference "packagetest" */;
+			productName = apicallpackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD8BF7EE2BE10EC8001E4719 /* Project object */;
 }
