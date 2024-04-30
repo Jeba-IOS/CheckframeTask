@@ -1,0 +1,11 @@
+framework module APIcallcustomFramework {
+  umbrella header "APIcallcustomFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module APIcallcustomFramework.Swift {
+  header "APIcallcustomFramework-Swift.h"
+  requires objc
+}

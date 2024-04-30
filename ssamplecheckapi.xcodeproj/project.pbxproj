@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD0BAF642BE140470094E61D /* apicallpackage in Frameworks */ = {isa = PBXBuildFile; productRef = DD0BAF632BE140470094E61D /* apicallpackage */; };
+		DD0BAF662BE1453C0094E61D /* samplemodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BAF652BE1453C0094E61D /* samplemodel.swift */; };
 		DD8BF7FA2BE10EC8001E4719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF7F92BE10EC8001E4719 /* AppDelegate.swift */; };
 		DD8BF7FC2BE10EC8001E4719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF7FB2BE10EC8001E4719 /* SceneDelegate.swift */; };
 		DD8BF7FE2BE10EC8001E4719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BF7FD2BE10EC8001E4719 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD0BAF652BE1453C0094E61D /* samplemodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samplemodel.swift; sourceTree = "<group>"; };
 		DD8BF7F62BE10EC8001E4719 /* ssamplecheckapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ssamplecheckapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8BF7F92BE10EC8001E4719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8BF7FB2BE10EC8001E4719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				DD8BF7F92BE10EC8001E4719 /* AppDelegate.swift */,
 				DD8BF7FB2BE10EC8001E4719 /* SceneDelegate.swift */,
 				DD8BF7FD2BE10EC8001E4719 /* ViewController.swift */,
+				DD0BAF652BE1453C0094E61D /* samplemodel.swift */,
 				DD8BF7FF2BE10EC8001E4719 /* Main.storyboard */,
 				DD8BF8022BE10EC9001E4719 /* Assets.xcassets */,
 				DD8BF8042BE10EC9001E4719 /* LaunchScreen.storyboard */,
@@ -283,6 +286,7 @@
 				DD8BF7FE2BE10EC8001E4719 /* ViewController.swift in Sources */,
 				DD8BF7FA2BE10EC8001E4719 /* AppDelegate.swift in Sources */,
 				DD8BF7FC2BE10EC8001E4719 /* SceneDelegate.swift in Sources */,
+				DD0BAF662BE1453C0094E61D /* samplemodel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
